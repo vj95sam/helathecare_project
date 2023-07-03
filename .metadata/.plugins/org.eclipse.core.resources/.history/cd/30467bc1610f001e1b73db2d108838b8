@@ -1,0 +1,23 @@
+package medicarepage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.mysql.cj.protocol.SocksProxySocketFactory;
+
+
+
+public  Medicare {
+	 WebDriver driver;
+	
+	 
+	 public static void homepage (){
+		 System.out.println("yes");
+		 
+	 System.setProperty("webdriver.chrome.driver" , "/home/vigneshta95gmai/Downloads/chromedriver.exe");
+	 driver = new ChromeDriver();
+	 
+	driver.get("http://localhost:9001/medicare/");
+	System.out.println("result varuma varatha");
+	 }
+}

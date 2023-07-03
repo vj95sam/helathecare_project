@@ -1,0 +1,20 @@
+package medicarepage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Medicare {
+
+	
+	public static void main(String[] args) {
+		WebDriver driver;
+		 System.setProperty("webdriver.chrome.driver" , "/home/vigneshta95gmai/Downloads/chromedriver.exe");
+		 driver = new ChromeDriver();
+		 
+		driver.get("http://localhost:9001/medicare/");
+		System.out.println("result varuma varatha");
+
+
+	}
+
+}
